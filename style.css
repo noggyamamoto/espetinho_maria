@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{margin: 0; padding: 0;}
+
+body {
+	background-image: url(img/fundo.png);
+}
+
+nav{
+	padding: 25px;
+	background-color: #FF5722;
+	box-shadow: 10px 10px 50px #000;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu:link, .menu:visited{
+	color: #FFF;
+}
+.menu:hover, .menu:active{
+	color: black;
+}
+
+.footer-nome:link, .footer-nome:visited{
+	color: #FFF;
+}
+.footer-nome:hover, .footer-nome:active{
+	color: #FF5722;
+}
+
+main{
+	margin: 20px;
+
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
+
+h2{
+	padding: 20px;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#logo{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 95vh;
+
+}
+
+#contatos{
+	
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px 20px 20px;
+}
+
+#zap, #insta{
+	height: 30vh;
+}
+
+#sobre{
+	background-color: #FF5722;
+	padding: 20px;
+	border-radius: 20px 20px 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#local{
+	background-color: #FF5722;
+	padding: 20px;
+	margin: 20px;
+	color: #FFF;
+	border-radius: 20px 20px 20px;
+
+}
+
+footer{
+	padding: 20px;
+	background-color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container{
+
+}
+
+.cardcontent{
+
+}
+
+.img-card{
+
+}
